@@ -1,0 +1,37 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.header {
+    text-align: center;
+    font-size: 40px;
+    font-style: italic;
+}
+
+.hours,
+.minutes,
+.seconds,
+.tens {
+    font-size: 60px;
+}
+.main {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 40px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.start,
+.stop,
+.reset {
+   padding: 10px;
+   width: 100px;
+   font-size: 20px;
+}
